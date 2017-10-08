@@ -1,0 +1,330 @@
+/******************************************************
+*
+* Extra small devices (phones, less than 768px) 
+*
+******************************************************/
+
+@media (max-width: 700px) {
+
+section#top_header {
+    margin-top: 25%;
+}
+
+h1#hero_text {
+    margin-bottom: 35px;
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.logo {
+}
+
+section#lower_header {
+    margin-top: 25%;
+}
+
+#lower_header a {
+}
+
+#tabs ul {
+    list-style: outside none none;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    height: auto;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#tabs ul li {
+    height: 30px;
+    line-height: 15px;
+    float: none;
+    margin-right: 0px;
+}
+
+#tabs ul li.ui-tabs-active a, #tabs ul li a:hover {
+    color: #43484d;
+    border-left: 2px solid #43484d;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+#tabs ul li a {
+    color: #86939e;
+    text-decoration: none;
+    border-left: 2px solid #86939e;
+    padding-left: 10px;
+}
+
+ul#areas_of_expertise_icons {
+    list-style: outside none none;
+    margin: 0 auto;
+    width: 300px;
+    padding-left: 30px;
+}
+
+ul#areas_of_expertise_icons li {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 43px;
+}
+
+ul#areas_of_expertise_icons li p {
+    color: #43484d;
+    font-family: RobotoRegular,Arial;
+    margin-top: 13px;
+}
+
+ul#areas_of_expertise_icons li.first {
+    width: 56px;
+}
+
+ul#areas_of_expertise_icons li.first p {
+    margin-top: 25px;
+}
+
+ul#areas_of_expertise_icons li.second p {
+    margin-top: 24px;
+}
+
+ul#areas_of_expertise_icons li.second {
+    width: 52px;
+}
+
+ul#areas_of_expertise_icons li.third {
+    width: 57px;
+}
+
+ul#areas_of_expertise_icons li.third p {
+    margin-left: 7px;
+}
+
+ul#areas_of_expertise_icons li.fourth {
+    width: 60px;
+}
+
+ul#areas_of_expertise_icons li.fifth {
+    width: 47px;
+}
+
+ul#areas_of_expertise_icons li.sixth {
+    margin-left: 55px;
+    width: 38px;
+}
+
+ul#areas_of_expertise_icons li.sixth p {
+    margin-top: 16px;
+}
+
+ul#areas_of_expertise_icons li.fourth p {
+    margin-top: 22px;
+}
+
+section#discover_our_app .app_image {
+    float: right;
+    height: 465px;
+    padding-right: 15%;
+    padding-top: 30px;
+    width: auto;
+    height: auto;
+}
+
+section#discover_our_app #app_content {
+    margin-top: 0px;
+}
+
+section#discover_our_app .app_icon {
+
+    margin-top: 0px;
+}
+
+section#discover_our_app {
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+
+form#contact_form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section#contact .contact_details {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact_message {
+    background-color: #c2e2b1;
+    border: 1px solid #72b24a;
+    border-radius: 6px;
+    color: #72b24a;
+    font-family: RobotoMedium,Arial;
+    height: 50px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.invalid_email {
+    background-color: #F4F4A4;
+    border: 1px solid #CECE4C;
+    border-radius: 6px;
+    color: #CECE4C;
+    font-family: RobotoMedium,Arial;
+    height: 50px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#how_it_works h1 {
+    margin-bottom: 30px;
+}
+
+section#testimonials p.testimonial {
+    margin-bottom: 10px;
+}
+
+section#testimonials p.testimonial_name {
+    padding-bottom: 20px;
+}
+
+section#testimonials {
+    padding-bottom: 65px;
+}
+
+footer {
+    background-color: #43484d;
+    padding-top: 65px;
+}
+
+footer .col-md-4 {
+    clear: both;
+    float: none;
+    height: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.footer_bottom {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+ul.credit_companies {
+    margin-top: 25px;
+    padding-left: 0;
+    width: 100%;
+    height: 85px;
+}
+
+ul.credit_companies li {
+    margin-top: 9px;
+}
+
+ul.footer_social {
+    height: 40px;
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+p.copyright {
+    float: none;
+    margin-top: 0px;
+}
+
+a.go_top {
+    margin-top: -15px;
+}
+
+}
+
+/******************************************************
+*
+* Small devices (tablets, 768px and up)
+*
+******************************************************/
+
+@media (min-width: 700px) and (max-width: 1000px) {
+
+section#discover_our_app #app_content {
+	margin-top: 0px;
+}
+
+section#discover_our_app {
+    padding-bottom: 0;
+    padding-top: 100px;
+}
+
+section#discover_our_app .app_image {
+    margin-top: 35px;
+    padding-right: 15%;
+    float: left;
+    height: 430px;
+}
+
+section#testimonials {
+    padding-bottom: 65px;
+}
+
+section#testimonials p.testimonial {
+    margin-bottom: 10px;
+}
+
+section#testimonials p.testimonial_name {
+    padding-bottom: 20px;
+}
+
+p.copyright {
+    margin-top: 10px;
+}
+
+a.go_top {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #43484d;
+    padding-top: 65px;
+}
+
+footer .col-md-4 {
+    clear: both;
+    float: none;
+    height: auto;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+ul.footer_social {
+    height: 45px;
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+ul.credit_companies {
+    margin-top: 20px;
+}
+
+.footer_bottom {
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+
+.input-group {
+    width: 50%;
+}
+
+}
