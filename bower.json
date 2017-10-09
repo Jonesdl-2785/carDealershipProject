@@ -1,0 +1,20 @@
+{
+  "name": "Main File",
+  "homepage": "https://github.com/Jonesdl-2785/carDealershipProject",
+  "authors": [
+    "DianeJones <dlj.co27@gmailcom>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
