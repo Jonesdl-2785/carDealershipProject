@@ -39,6 +39,17 @@ a {
 header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
+/******************************************************
+
+MEDIA
+
+*******************************************************/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body { line-height: 1.4 }
+}
 
 /******************************************************
 
@@ -50,8 +61,9 @@ body {
 	background-color: #363636;
 }
 
+
 header {
-    background: url("/Users/ThedWord/Documents/Main File/landing_page/placeholders/Jaguar F_Type.jpg") no-repeat scroll 50% 0;
+    background: url("/Users/ThedWord/documents/CarDealership_1/landing_page/placeholders/Jaguar F_Type.jpg") no-repeat scroll 50% 0;
     background-color: #FFFFFF;
     min-height: 720px;
 }
@@ -60,11 +72,7 @@ section#top_header {
     padding-top: 60px;
 }
 
-fieldset { border: none
-   margin-left: 25px;
-   margin-top: 0;
-}
-
+fieldset { border: none}
 #search-form {
 	width: 190px;
 	position: relative;
